@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECF0F3"
+        tools:context=".MainActivity">
+
+        <com.github.sshadkany.shapes.CircleView
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shape_circle_backgroundColor="#ECF0F3"
+            app:shape_circle_shadow_type="drop_shadow"/>
+
+        <com.github.sshadkany.shapes.CircleView
+            android:id="@+id/btn9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shape_circle_backgroundColor="#ECF0F3"
+            app:shape_circle_shadow_type="big_inner_shadow">
+
+        </com.github.sshadkany.shapes.CircleView>
+
+        <com.github.sshadkany.shapes.PolygonView
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="@id/btn1"
+            app:layout_constraintTop_toBottomOf="@id/btn1"
+            app:shape_polygon_backgroundColor="#ECF0F3"
+            app:shape_polygon_shadow_type="drop_shadow"
+            app:shape_polygon_side="5">
+
+            <com.github.sshadkany.shapes.PolygonView
+                android:id="@+id/btn2_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:shape_polygon_backgroundColor="#ECF0F3"
+                app:shape_polygon_shadow_type="small_inner_shadow"
+                app:shape_polygon_side="5">
+
+            </com.github.sshadkany.shapes.PolygonView>
+
+        </com.github.sshadkany.shapes.PolygonView>
+
+        <com.github.sshadkany.shapes.RoundRectView
+            android:id="@+id/btn3"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="@id/btn2"
+            app:layout_constraintTop_toBottomOf="@id/btn2"
+            app:shape_roundRect_backgroundColor="#ECF0F3"
+            app:shape_roundRect_bottomLeftRadius="12dp"
+            app:shape_roundRect_bottomRightRadius="12dp"
+            app:shape_roundRect_shadow_type="drop_shadow"
+            app:shape_roundRect_topLeftRadius="12dp"
+            app:shape_roundRect_topRightRadius="12dp">
+
+            <com.github.sshadkany.shapes.RoundRectView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:shape_roundRect_backgroundColor="#ECF0F3"
+                app:shape_roundRect_bottomLeftRadius="12dp"
+                app:shape_roundRect_bottomRightRadius="12dp"
+                app:shape_roundRect_shadow_type="small_inner_shadow"
+                app:shape_roundRect_topLeftRadius="12dp"
+                app:shape_roundRect_topRightRadius="12dp">
+
+                <com.github.sshadkany.shapes.RoundRectView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    app:shape_roundRect_backgroundColor="#ECF0F3"
+                    app:shape_roundRect_bottomLeftRadius="12dp"
+                    app:shape_roundRect_bottomRightRadius="12dp"
+                    app:shape_roundRect_shadow_type="drop_shadow"
+                    app:shape_roundRect_topLeftRadius="12dp"
+                    app:shape_roundRect_topRightRadius="12dp">
+
+                </com.github.sshadkany.shapes.RoundRectView>
+            </com.github.sshadkany.shapes.RoundRectView>
+        </com.github.sshadkany.shapes.RoundRectView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

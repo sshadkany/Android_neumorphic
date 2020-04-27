@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeOfView">
+        <attr name="shape_clip_drawable" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircleView">
+        <attr name="shape_circle_borderWidth" format="dimension"/>
+        <attr name="shape_circle_borderColor" format="color"/>
+        <attr name="shape_circle_shadow_type" format="enum">
+            <enum name="drop_shadow" value="1"/>
+            <enum name="big_inner_shadow" value="2"/>
+            <enum name="small_inner_shadow" value="3"/>
+        </attr>
+        <attr name="shape_circle_shadow_position_x" format="dimension"/>
+        <attr name="shape_circle_shadow_position_y" format="dimension"/>
+        <attr name="shape_circle_radius" format="dimension"/>
+        <attr name="shape_circle_light_color" format="color"/>
+        <attr name="shape_circle_dark_color" format="color"/>
+        <attr name="shape_circle_backgroundColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="PolygonView">
+        <attr name="shape_polygon_borderWidth" format="dimension"/>
+        <attr name="shape_polygon_borderColor" format="color"/>
+        <attr name="shape_polygon_shadow_type" format="enum">
+            <enum name="drop_shadow" value="1"/>
+            <enum name="big_inner_shadow" value="2"/>
+            <enum name="small_inner_shadow" value="3"/>
+        </attr>
+        <attr name="shape_polygon_shadow_position_x" format="dimension"/>
+        <attr name="shape_polygon_shadow_position_y" format="dimension"/>
+        <attr name="shape_polygon_radius" format="dimension"/>
+        <attr name="shape_polygon_light_color" format="color"/>
+        <attr name="shape_polygon_dark_color" format="color"/>
+        <attr name="shape_polygon_backgroundColor" format="color"/>
+        <attr name="shape_polygon_side" format="integer"/>
+        <attr name="shape_polygon_corner_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectView">
+        <attr name="shape_roundRect_topLeftRadius" format="dimension"/>
+        <attr name="shape_roundRect_topRightRadius" format="dimension"/>
+        <attr name="shape_roundRect_bottomLeftRadius" format="dimension"/>
+        <attr name="shape_roundRect_bottomRightRadius" format="dimension"/>
+        <attr name="shape_roundRect_borderWidth" format="dimension"/>
+        <attr name="shape_roundRect_borderColor" format="color"/>
+        <attr name="shape_roundRect_shadow_type" format="enum">
+            <enum name="drop_shadow" value="1"/>
+            <enum name="big_inner_shadow" value="2"/>
+            <enum name="small_inner_shadow" value="3"/>
+        </attr>
+        <attr name="shape_roundRect_shadow_position_x" format="dimension"/>
+        <attr name="shape_roundRect_shadow_position_y" format="dimension"/>
+        <attr name="shape_roundRect_radius" format="dimension"/>
+        <attr name="shape_roundRect_light_color" format="color"/>
+        <attr name="shape_roundRect_dark_color" format="color"/>
+        <attr name="shape_roundRect_backgroundColor" format="color"/>
+
+    </declare-styleable>
+
+
+</resources>
