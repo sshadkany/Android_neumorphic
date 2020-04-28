@@ -7,13 +7,58 @@
     android:background="#ECF0F3"
     tools:context=".ActivityStyle">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drop shadow"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn35"
+        app:layout_constraintTop_toTopOf="@+id/btn35" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="small inner shadow"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn36"
+        app:layout_constraintTop_toTopOf="@+id/btn36" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="big inner shadow"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn37"
+        app:layout_constraintTop_toTopOf="@+id/btn37" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="2"
+        android:text="shape_circle_shadow_type="
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.github.sshadkany.shapes.CircleView
         android:id="@+id/btn35"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_margin="5dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
         app:shape_circle_backgroundColor="#ECF0F3"
         app:shape_circle_shadow_type="drop_shadow" />
 
