@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.sshadkany.android_neumorphic_test_app.Activity3">
+
+    <com.github.sshadkany.shapes.RoundRectView
+        android:id="@+id/btn3"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shape_roundRect_backgroundColor="#0591FA"
+        app:shape_roundRect_bottomLeftRadius="12dp"
+        app:shape_roundRect_bottomRightRadius="12dp"
+        app:shape_roundRect_shadow_type="drop_shadow"
+        app:shape_roundRect_topLeftRadius="12dp"
+        app:shape_roundRect_topRightRadius="12dp">
+
+        <com.github.sshadkany.shapes.RoundRectView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            app:shape_roundRect_backgroundColor="#ECF0F3"
+            app:shape_roundRect_bottomLeftRadius="12dp"
+            app:shape_roundRect_bottomRightRadius="12dp"
+            app:shape_roundRect_shadow_type="small_inner_shadow"
+            app:shape_roundRect_topLeftRadius="12dp"
+            app:shape_roundRect_topRightRadius="12dp">
+
+            <com.github.sshadkany.shapes.RoundRectView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                app:shape_roundRect_backgroundColor="#ECF0F3"
+                app:shape_roundRect_bottomLeftRadius="12dp"
+                app:shape_roundRect_bottomRightRadius="12dp"
+                app:shape_roundRect_shadow_type="drop_shadow"
+                app:shape_roundRect_topLeftRadius="12dp"
+                app:shape_roundRect_topRightRadius="12dp">
+
+            </com.github.sshadkany.shapes.RoundRectView>
+        </com.github.sshadkany.shapes.RoundRectView>
+    </com.github.sshadkany.shapes.RoundRectView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
