@@ -53,3 +53,31 @@ This is not a free library. But it has been published based on your trust. If yo
         app:shape_circle_borderColor="@color/colorPrimaryDark"
         app:shape_circle_borderWidth="4dp"
 ```
+### how make a button ?? 
+|<img src="screenshots/button.gif" width="250"> |
+|----------|
+|code in activity_secend.xml|
+
+```java
+        final neo mybtn = findViewById(R.id.my_button);
+        mybtn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                // is shape Contains Point ----> for detect place of Touch is in the shape or not
+                if (mybtn.isShapeContainsPoint(event.getX(), event.getY())) {
+                    switch (event.getAction()) {
+                        case MotionEvent.ACTION_DOWN:
+                            // PRESSED
+                            mybtn.setStyle(neo.small_inner_shadow);
+                            return true; // if you want to handle the touch event
+                        case MotionEvent.ACTION_UP:
+                        case MotionEvent.ACTION_CANCEL:
+                            // RELEASED
+                            mybtn.setStyle(neo.drop_shadow);
+                            return true; // if you want to handle the touch event
+                    }
+                }
+                return false;
+            }
+        });
+```
