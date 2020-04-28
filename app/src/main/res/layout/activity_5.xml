@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.sshadkany.android_neumorphic_test_app.Activity5">
+
+    <com.github.sshadkany.shapes.CircleView
+        android:id="@+id/i_am_another_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shape_circle_backgroundColor="#ECF0F3"
+
+        app:shape_circle_shadow_position_y="-30dp"
+        app:shape_circle_shadow_position_x="40dp"
+        app:shape_circle_dark_color="@color/colorPrimary"
+        app:shape_circle_light_color="@color/colorAccent"
+
+        app:shape_circle_borderColor="@color/colorPrimaryDark"
+        app:shape_circle_borderWidth="4dp"
+
+        app:shape_circle_shadow_type="drop_shadow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
