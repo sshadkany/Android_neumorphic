@@ -250,13 +250,43 @@ public class neo extends ShapeOfView {
     //**************** Getter and setter *******************
 
 
-
     public int getStyle() {
         return style;
     }
 
+    /***
+     * for set shadow style "small inner shadow" or "big inner shadow" or "drop shadow"
+     * "small inner shadow" is same as big inner shadow but smaller and is same size of drop shadow
+     * when you want make a button you should use "small inner shadow" for pressing style
+     *
+     *
+     * @param style
+     *
+     */
     public void setStyle(@mystyle int style) {
         this.style = style;
+        requiresShapeUpdate();
+    }
+
+    /***
+     *
+     * same as set style but with a better name !
+     *
+     */
+    public int getShadowStyle() {
+        return style;
+    }
+
+    /***
+     * for set shadow style "small inner shadow" or "big inner shadow" or "drop shadow"
+     * "small inner shadow" is same as big inner shadow but smaller and is same size of drop shadow
+     * when you want make a button you should use "small inner shadow" for pressing style
+     *
+     * same as set style but with a better name !
+     * @param shadowStyle
+     */
+    public void setShadowStyle(@mystyle int shadowStyle) {
+        this.style = shadowStyle;
         requiresShapeUpdate();
     }
 
