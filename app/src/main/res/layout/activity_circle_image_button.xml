@@ -10,7 +10,7 @@
     <com.github.sshadkany.CircleButton
         android:id="@+id/circle_image_button"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="400dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -27,7 +27,7 @@
     <com.github.sshadkany.CircleButton
         android:id="@+id/circle_text_button"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/circle_image_button">
 
