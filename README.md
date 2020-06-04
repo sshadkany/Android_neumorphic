@@ -12,10 +12,10 @@ This is not a free library. But it has been published based on your trust. If yo
 [![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic)
 --
 ## ✔️some exmaples !!
-### with 3 basic shape
-| <img src="screenshots/1.png" width="250"> | <img src="screenshots/3.gif" width="250"> | <img src="screenshots/button.gif" width="250"> 
+### with 3 basic shape + Dark Mode
+| <img src="screenshots/1.jpg" width="250"> | <img src="screenshots/3.gif" width="250"> | <img src="screenshots/button.gif" width="250"> 
 |------------|-------------|--------------|
-|code in activity_secend.xml |  code in activity_secend.xml | code in activity_secend.xml
+|code in activity_secend.xml |  code in activity_secend.xml | code in activity_circle_image_button.xml
 
 ### can works nested and make amazing views !!
 |<img src="screenshots/2.png" width="250"> |<img src="screenshots/nested.png" width="250"> |
