@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CircleImageButtonActivity">
+        <activity android:name=".RectButtonActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".ActivityButton"></activity>
+        <activity android:name=".CircleImageButtonActivity"></activity>
+        <activity android:name=".ActivityButton" />
         <activity android:name=".Activity5">
 
             <!-- <intent-filter> -->
