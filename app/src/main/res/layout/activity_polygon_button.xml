@@ -2,27 +2,38 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PolygonButtonActivity"
-    android:id="@+id/backgroundLayout">
+    tools:context=".PolygonButtonActivity">
 
-    <com.github.sshadkany.PolygonButton
-        android:id="@+id/polygon_button"
+    <!-- if you do not like basin effect -> remove below polygonView and use only polygonButton -->
+
+    <com.github.sshadkany.shapes.PolygonView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        app:shape_polygon_shadow_type="drop_shadow"
         app:shape_polygon_side="4">
 
-
-        <ImageView
-            android:id="@+id/imageView3"
+        <com.github.sshadkany.PolygonButton
+            android:id="@+id/polygon_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="60dp"
-            android:layout_gravity="center"
-            android:tint="#000000"
-            app:srcCompat="@drawable/abc_vector_test" />
-    </com.github.sshadkany.PolygonButton>
+            android:layout_margin="2dp"
+            app:shape_polygon_side="4">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="60dp"
+                android:tint="#000000"
+                app:srcCompat="@drawable/abc_vector_test" />
+        </com.github.sshadkany.PolygonButton>
+
+    </com.github.sshadkany.shapes.PolygonView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
