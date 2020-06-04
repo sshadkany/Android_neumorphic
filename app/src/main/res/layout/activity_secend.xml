@@ -23,19 +23,6 @@
 
         <!--        </com.github.sshadkany.shapes.PolygonView>-->
 
-        <!--    <com.github.sshadkany.shapes.CircleView-->
-        <!--        android:id="@+id/my_button"-->
-        <!--        android:layout_width="0dp"-->
-        <!--        android:layout_height="0dp"-->
-        <!--        android:layout_margin="5dp"-->
-        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--        app:layout_constraintEnd_toEndOf="parent"-->
-        <!--        app:layout_constraintStart_toStartOf="parent"-->
-        <!--        app:layout_constraintTop_toTopOf="parent"-->
-        <!--        app:shape_circle_backgroundColor="#ECF0F3"-->
-        <!--        app:shape_circle_shadow_type="drop_shadow">-->
-
-        <!--    </com.github.sshadkany.shapes.CircleView>-->
 
         <!--Dark mode Example  -->
         <com.github.sshadkany.shapes.RoundRectView
