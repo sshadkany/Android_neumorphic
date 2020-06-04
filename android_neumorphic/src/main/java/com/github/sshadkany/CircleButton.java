@@ -17,7 +17,6 @@ public class CircleButton extends CircleView {
 
     private ImageView imageView;
     private TextView textView;
-    private boolean isPressed = false;
 
     public CircleButton(Context context) {
         super(context);
@@ -80,7 +79,6 @@ public class CircleButton extends CircleView {
                         textView.setScaleX(textView.getScaleX() * 0.9f);
                         textView.setScaleY(textView.getScaleY() * 0.9f);
                     }
-                    isPressed = true;
                     performClick();
                     requiresShapeUpdate();
                     return true;
@@ -96,7 +94,6 @@ public class CircleButton extends CircleView {
                         textView.setScaleX(1);
                         textView.setScaleY(1);
                     }
-                    isPressed = false;
                     requiresShapeUpdate();
                     return true;
             }
@@ -112,7 +109,6 @@ public class CircleButton extends CircleView {
                 textView.setScaleX(1);
                 textView.setScaleY(1);
             }
-            isPressed = false;
             requiresShapeUpdate();
             return true;
         }
@@ -125,11 +121,5 @@ public class CircleButton extends CircleView {
 
     }
 
-    /**
-     * @return if Button pressed now returns true
-     */
-    public boolean isPressedNow() {
-        return isPressed;
-    }
 
 }
