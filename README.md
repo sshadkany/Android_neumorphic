@@ -5,7 +5,8 @@
 **NOTE**
 This is not a free library. But it has been published based on your trust. If you use this library in your software, be sure to pay the price.
 - If this library was very useful ... $ 99
-- If it only saves you time ... $ 29
+- If it only saves your time ... $ 29
+- buy at here --> https://www.uplabs.com/posts/android_neumorphic
 ---
 🔧 Easy Installation 🔧 click here -> 
 [![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic)
@@ -54,12 +55,14 @@ This is not a free library. But it has been published based on your trust. If yo
         app:shape_circle_borderWidth="4dp"
 ```
 ### how make a button ?? 
-|<img src="screenshots/button.gif" width="250"> |
+|<img src="screenshots/button2.gif" width="250"> |
 |----------|
-|code in activity_secend.xml|
+|code in activity_button.xml|
 
 ```java
-        final neo mybtn = findViewById(R.id.my_button);
+              final neo mybtn = findViewById(R.id.my_button);
+        ViewGroup viewGroup = findViewById(R.id.my_button);
+        final ImageView imageview = (ImageView) viewGroup.getChildAt(0);
         mybtn.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -69,15 +72,20 @@ This is not a free library. But it has been published based on your trust. If yo
                         case MotionEvent.ACTION_DOWN:
                             // PRESSED
                             mybtn.setStyle(neo.small_inner_shadow);
-                            return true; // if you want to handle the touch event
+                            imageview.setScaleX(imageview.getScaleX() * 0.9f);
+                            imageview.setScaleY(imageview.getScaleY() * 0.9f);
+                            return true; 
                         case MotionEvent.ACTION_UP:
                         case MotionEvent.ACTION_CANCEL:
                             // RELEASED
                             mybtn.setStyle(neo.drop_shadow);
-                            return true; // if you want to handle the touch event
+                            imageview.setScaleX(1);
+                            imageview.setScaleY(1);
+                            return true; 
                     }
                 }
                 return false;
             }
         });
+    }
 ```
