@@ -13,21 +13,21 @@ import androidx.annotation.Nullable;
 
 import com.github.sshadkany.shapes.RoundRectView;
 
-public class rectButton extends RoundRectView {
+public class RectButton extends RoundRectView {
 
     private ImageView imageView;
     private TextView textView;
     private boolean isPressed = false;
 
-    public rectButton(@NonNull Context context) {
+    public RectButton(@NonNull Context context) {
         super(context);
     }
 
-    public rectButton(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public RectButton(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public rectButton(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public RectButton(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
