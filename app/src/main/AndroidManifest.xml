@@ -9,28 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PolygonButtonActivity">
+        <activity android:name=".PolygonButtonActivity"></activity>
+        <activity android:name=".RectButtonActivity"></activity>
+        <activity android:name=".CircleImageButtonActivity"></activity>
+        <activity android:name=".ActivityButton" />
+        <activity android:name=".Activity5"></activity>
+        <activity android:name=".ActivityStyle" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".SecendActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RectButtonActivity"></activity>
-        <activity android:name=".CircleImageButtonActivity"></activity>
-        <activity android:name=".ActivityButton" />
-        <activity android:name=".Activity5">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity android:name=".ActivityStyle" />
-        <activity android:name=".Activity3" />
-        <activity android:name=".SecendActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
