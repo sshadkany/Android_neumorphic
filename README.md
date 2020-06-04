@@ -41,7 +41,7 @@ This is not a free library. But it has been published based on your trust. If yo
 |-------------|
 |code in activity_style.xml|
 
-### you can play with every paramter!!
+### you can play with every paramter!! 
 |<img src="screenshots/5.png" width="250">|
 |-------------|
 |code in activity_5.xml|
@@ -54,7 +54,51 @@ This is not a free library. But it has been published based on your trust. If yo
         app:shape_circle_borderColor="@color/colorPrimaryDark"
         app:shape_circle_borderWidth="4dp"
 ```
-### how make a button ?? 
+
+### how make a button ?? (easy way)
+|<img src="screenshots/circleImageButton.gif" width="250"> |
+|----------|
+|code in activity_circle_image_button.xml|
+```xml
+    <com.github.sshadkany.CircleButton
+        android:id="@+id/circle_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="32dp"
+            android:tint="#100F0F"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+    </com.github.sshadkany.CircleButton>
+```
+and in java class
+```java
+        CircleButton circle_button = findViewById(R.id.circle_image_button);
+        circle_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("neo", "onClick: i am clicked");
+            }
+        });
+```
+### more examples
+|<img src="screenshots/recbutton.gif" width="250"> |<img src="screenshots/polygonButton.gif" width="250"> |
+|-----------------|----------------|
+|code in activity_rect_button.xml |code in activity_polygon_button.xml 
+### how make Darkmode
+change this three color 
+```xml
+        app:shape_roundRect_backgroundColor="#303234"
+        app:shape_roundRect_light_color="#66494949"
+        app:shape_roundRect_dark_color="#66000000"
+```
+
+### how make a button ?? (Advanced way)
 |<img src="screenshots/button2.gif" width="250"> |
 |----------|
 |code in activity_button.xml|
