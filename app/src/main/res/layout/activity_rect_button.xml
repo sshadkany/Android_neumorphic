@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.github.sshadkany.android_neumorphic_test_app.RectButtonActivity">
+    tools:context="com.github.sshadkany.android_neumorphic_test_app.RectButtonActivity"
+    android:id="@+id/backgroundLayout">
 
-    <com.github.sshadkany.rectButton
+    <com.github.sshadkany.RectButton
         android:id="@+id/rec_image_button"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -15,6 +16,10 @@
         app:shape_roundRect_bottomRightRadius="100dp"
         app:shape_roundRect_topRightRadius="100dp"
         app:shape_roundRect_topLeftRadius="100dp"
+
+        app:shape_roundRect_backgroundColor="#303234"
+        app:shape_roundRect_light_color="#66494949"
+        app:shape_roundRect_dark_color="#66000000"
 
         app:layout_constraintTop_toTopOf="parent">
 
@@ -26,15 +31,19 @@
             android:tint="#100F0F"
             app:srcCompat="@drawable/abc_vector_test" />
 
-    </com.github.sshadkany.rectButton>
+    </com.github.sshadkany.RectButton>
 
-    <com.github.sshadkany.rectButton
+    <com.github.sshadkany.RectButton
         android:id="@+id/rec_text_button"
         android:layout_width="match_parent"
         android:layout_height="200dp"
 
         app:shape_roundRect_topRightRadius="60dp"
         app:shape_roundRect_bottomLeftRadius="60dp"
+
+        app:shape_roundRect_backgroundColor="#303234"
+        app:shape_roundRect_light_color="#66494949"
+        app:shape_roundRect_dark_color="#66000000"
 
         app:layout_constraintBottom_toBottomOf="parent">
 
@@ -44,6 +53,6 @@
             android:layout_gravity="center"
             android:text="TextView"
             android:textSize="30sp" />
-    </com.github.sshadkany.rectButton>
+    </com.github.sshadkany.RectButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
