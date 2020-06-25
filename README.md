@@ -9,7 +9,7 @@ This is not a free library. But it has been published based on your trust. If yo
 - buy at here --> https://www.uplabs.com/posts/android_neumorphic
 ---
 🔧 Easy Installation 🔧 click here -> 
-[![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic)
+[![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic/master-SNAPSHOT)
 --
 ## ✔️some exmaples !!
 ### with 3 basic shape + Dark Mode
