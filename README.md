@@ -21,12 +21,17 @@ This is not a free library. But it has been published based on your trust. If yo
 ### with 3 basic shape + Dark Mode
 | <img src="screenshots/1.jpg" width="250"> | <img src="screenshots/3.gif" width="250"> | <img src="screenshots/button.gif" width="250"> 
 |------------|-------------|--------------|
-|code in activity_secend.xml |  code in activity_secend.xml | code in activity_circle_image_button.xml
+|code in [activity_secend.xml](app/src/main/res/layout/activity_secend.xml) |  code in [activity_secend.xml](app/src/main/res/layout/activity_secend.xml) | code in [activity_circle_image_button.xml](app/src/main/res/layout/activity_circle_image_button.xml)
 
 ### can works nested and make amazing views !!
 |<img src="screenshots/2.png" width="250"> |<img src="screenshots/nested.png" width="250"> |
 |-----------------|----------------|
-|code in activity_main.xml |code in activity_3.xml 
+|code in [activity_main.xml](app/src/main/res/layout/activity_main.xml) |code in [activity_3.xml](app/src/main/res/layout/activity_3.xml)
+
+### can create multiLine neomorphic text !!
+|<img src="screenshots/neoText.png" width="250"> |
+|-----------------|
+|code in [activity_neo_text.xml](app/src/main/res/layout/activity_neo_text.xml) |
 
 ## how to use ?? 👞 by 👞 
 ### 1.first install library 
@@ -45,12 +50,12 @@ This is not a free library. But it has been published based on your trust. If yo
 ### 3.a better example 
 |<img src="screenshots/shadow style.png" width="250">|
 |-------------|
-|code in activity_style.xml|
+|code in [activity_style.xml](app/src/main/res/layout/activity_style.xml)|
 
 ### you can play with every paramter!! 
 |<img src="screenshots/5.png" width="250">|
 |-------------|
-|code in activity_5.xml|
+|code in [activity_5.xml](app/src/main/res/layout/aactivity_5.xml)|
 ```xml
         app:shape_circle_shadow_position_y="-30dp"
         app:shape_circle_shadow_position_x="40dp"
@@ -64,7 +69,7 @@ This is not a free library. But it has been published based on your trust. If yo
 ### how make a button ?? (easy way)
 |<img src="screenshots/circleImageButton.gif" width="250"> |
 |----------|
-|code in activity_circle_image_button.xml|
+|code in [activity_circle_image_button.xml](app/src/main/res/layout/activity_circle_image_button.xml)|
 ```xml
     <com.github.sshadkany.CircleButton
         android:id="@+id/circle_image_button"
@@ -95,7 +100,7 @@ and in java class
 ### more examples
 |<img src="screenshots/recbutton.gif" width="250"> |<img src="screenshots/polygonButton.gif" width="250">|<img src="screenshots/polygon_basin.gif" width="250"> |
 |-----------------|----------------|-------------------|
-|code in activity_rect_button.xml |code in activity_polygon_button.xml |code in activity_polygon_button.xml 
+|code in [activity_rect_button.xml](app/src/main/res/layout/activity_rect_button.xml)|code in [activity_polygon_button.xml](app/src/main/res/layout/activity_polygon_button.xml)|code in [activity_polygon_button.xml](app/src/main/res/layout/activity_polygon_button.xml) 
 ### how make Darkmode
 change this three color 
 ```xml
@@ -107,7 +112,7 @@ change this three color
 ### how make a button ?? (Advanced way)
 |<img src="screenshots/button2.gif" width="250"> |
 |----------|
-|code in activity_button.xml|
+|code in [activity_button.xml](app/src/main/res/layout/activity_button.xml)|
 
 ```java
               final neo mybtn = findViewById(R.id.my_button);
