@@ -1,3 +1,9 @@
+<div align="center">
+
+![alt text](screenshots/polygon_basin.gif "polygon_button")
+
+</div>
+
 # Android_neumorphic
 ## neumorphic (sof-ui) library for android  
 #### based on https://github.com/florent37/ShapeOfView
@@ -9,7 +15,7 @@ This is not a free library. But it has been published based on your trust. If yo
 - buy at here --> https://www.uplabs.com/posts/android_neumorphic
 ---
 🔧 Easy Installation 🔧 click here -> 
-[![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic)
+[![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic/master-SNAPSHOT)
 --
 ## ✔️some exmaples !!
 ### with 3 basic shape + Dark Mode
@@ -87,9 +93,9 @@ and in java class
         });
 ```
 ### more examples
-|<img src="screenshots/recbutton.gif" width="250"> |<img src="screenshots/polygonButton.gif" width="250"> |
-|-----------------|----------------|
-|code in activity_rect_button.xml |code in activity_polygon_button.xml 
+|<img src="screenshots/recbutton.gif" width="250"> |<img src="screenshots/polygonButton.gif" width="250">|<img src="screenshots/polygon_basin.gif" width="250"> |
+|-----------------|----------------|-------------------|
+|code in activity_rect_button.xml |code in activity_polygon_button.xml |code in activity_polygon_button.xml 
 ### how make Darkmode
 change this three color 
 ```xml
