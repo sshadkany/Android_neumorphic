@@ -4,36 +4,52 @@
         <attr name="shape_clip_drawable" format="reference"/>
     </declare-styleable>
     <declare-styleable name="CircleView">
-        <attr name="shape_circle_borderWidth" format="dimension"/>
-        <attr name="shape_circle_borderColor" format="color"/>
+        <attr name="shape_circle_borderWidth" format="dimension" />
+        <attr name="shape_circle_borderColor" format="color" />
         <attr name="shape_circle_shadow_type" format="enum">
-            <enum name="drop_shadow" value="1"/>
-            <enum name="big_inner_shadow" value="2"/>
-            <enum name="small_inner_shadow" value="3"/>
+            <enum name="drop_shadow" value="1" />
+            <enum name="big_inner_shadow" value="2" />
+            <enum name="small_inner_shadow" value="3" />
         </attr>
-        <attr name="shape_circle_shadow_position_x" format="dimension"/>
-        <attr name="shape_circle_shadow_position_y" format="dimension"/>
-        <attr name="shape_circle_radius" format="dimension"/>
-        <attr name="shape_circle_light_color" format="color"/>
-        <attr name="shape_circle_dark_color" format="color"/>
-        <attr name="shape_circle_backgroundColor" format="color"/>
+        <attr name="shape_circle_shadow_position_x" format="dimension" />
+        <attr name="shape_circle_shadow_position_y" format="dimension" />
+        <attr name="shape_circle_radius" format="dimension" />
+        <attr name="shape_circle_light_color" format="color" />
+        <attr name="shape_circle_dark_color" format="color" />
+        <attr name="shape_circle_backgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="neoText">
+        <attr name="neo_text" format="string" />
+        <attr name="neo_borderWidth" format="dimension" />
+        <attr name="neo_borderColor" format="string" />
+        <attr name="neo_shadow_type" format="enum">
+            <enum name="drop_shadow" value="1" />
+            <enum name="big_inner_shadow" value="2" />
+            <enum name="small_inner_shadow" value="3" />
+        </attr>
+        <attr name="neo_shadow_position_x" format="dimension" />
+        <attr name="neo_shadow_position_y" format="dimension" />
+        <attr name="neo_radius" format="dimension" />
+        <attr name="neo_light_color" format="color" />
+        <attr name="neo_dark_color" format="color" />
+        <attr name="neo_backgroundColor" format="color" />
     </declare-styleable>
     <declare-styleable name="PolygonView">
-        <attr name="shape_polygon_borderWidth" format="dimension"/>
-        <attr name="shape_polygon_borderColor" format="color"/>
+        <attr name="shape_polygon_borderWidth" format="dimension" />
+        <attr name="shape_polygon_borderColor" format="color" />
         <attr name="shape_polygon_shadow_type" format="enum">
-            <enum name="drop_shadow" value="1"/>
-            <enum name="big_inner_shadow" value="2"/>
-            <enum name="small_inner_shadow" value="3"/>
+            <enum name="drop_shadow" value="1" />
+            <enum name="big_inner_shadow" value="2" />
+            <enum name="small_inner_shadow" value="3" />
         </attr>
-        <attr name="shape_polygon_shadow_position_x" format="dimension"/>
-        <attr name="shape_polygon_shadow_position_y" format="dimension"/>
-        <attr name="shape_polygon_radius" format="dimension"/>
-        <attr name="shape_polygon_light_color" format="color"/>
-        <attr name="shape_polygon_dark_color" format="color"/>
-        <attr name="shape_polygon_backgroundColor" format="color"/>
-        <attr name="shape_polygon_side" format="integer"/>
-        <attr name="shape_polygon_corner_radius" format="dimension"/>
+        <attr name="shape_polygon_shadow_position_x" format="dimension" />
+        <attr name="shape_polygon_shadow_position_y" format="dimension" />
+        <attr name="shape_polygon_radius" format="dimension" />
+        <attr name="shape_polygon_light_color" format="color" />
+        <attr name="shape_polygon_dark_color" format="color" />
+        <attr name="shape_polygon_backgroundColor" format="color" />
+        <attr name="shape_polygon_side" format="integer" />
+        <attr name="shape_polygon_corner_radius" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="RoundRectView">
