@@ -12,9 +12,8 @@
 This is not a free library. But it has been published based on your trust. If you use this library in your software, be sure to pay the price.
 - If this library was very useful ... $ 99
 - If it only saves your time ... $ 29
-- buy at here --> My Wallet (bitCoin) 1N9T5PbQJbidhyfVXcpotpdrjMgdKvsbo2 
----
-![alt text](screenshots/canvas.png "wallet")
+- My Public Address to Receive USDT (TRC20) TM23smMPwAGH3HdFnQZ1AGWKna9Cm7s32e
+- Pay me via Trust Wallet: https://link.trustwallet.com/send?coin=195&address=TM23smMPwAGH3HdFnQZ1AGWKna9Cm7s32e&token_id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 ---
 🔧 Easy Installation 🔧 click here -> 
 [![](https://jitpack.io/v/sshadkany/Android_neumorphic.svg)](https://jitpack.io/#sshadkany/Android_neumorphic)
